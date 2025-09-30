@@ -5,7 +5,7 @@ const CONFIG = {
   MAGZINE_HOME_BUTTON_URL: '/about',
   MAGZINE_HOME_BUTTON_TEXT: '了解更多',
 
-  MAGZINE_HOME_HIDDEN_CATEGORY: '最新文章,心情随笔', //不希望在首页展示的文章分类，用英文逗号隔开
+  MAGZINE_HOME_HIDDEN_CATEGORY: '素材,技术分享', //不希望在首页展示的文章分类，用英文逗号隔开
 
   MAGZINE_HOME_TITLE: '立即开创您的在线业务。完全免费。',
   MAGZINE_HOME_DESCRIPTION:
@@ -13,8 +13,8 @@ const CONFIG = {
   MAGZINE_HOME_TIPS: 'AI时代来临，这是属于超级个体的狂欢盛宴！',
 
   // 首页底部推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  MAGZINE_RECOMMEND_POST_TAG: '',
-  MAGZINE_RECOMMEND_POST_COUNT: 0,
+  MAGZINE_RECOMMEND_POST_TAG: '推荐',
+  MAGZINE_RECOMMEND_POST_COUNT: 4,
   MAGZINE_RECOMMEND_POST_TITLE: 'Recommend',
   MAGZINE_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
 
@@ -45,10 +45,6 @@ const CONFIG = {
           title: '陆伽视研所',
           href: 'https://xiaohongshu.com'
         },
-        {
-          title: '公众号',
-          href: 'https://xiaohongshu.com'
-        }
       ]
     },
     {
