@@ -18,14 +18,14 @@ const Style = () => {
     #theme-fukasawa .grid-item {
         height: auto;
         break-inside: avoid-column;
-        margin-bottom: .5rem;
+        margin-bottom: .3rem;
     }
     
     /* 大屏幕（宽度≥1024px）下显示3列 */
-    @media (min-width: 960px) {
+    @media (min-width: 1024px) {
         #theme-fukasawa .grid-container {
-        column-count: 3;
-        column-gap: .5rem;
+        column-count: 5;
+        column-gap: .3rem;
         }
     }
     
