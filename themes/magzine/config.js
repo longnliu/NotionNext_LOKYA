@@ -19,7 +19,7 @@ const CONFIG = {
   MAGZINE_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
 
   // Style
-  MAGZINE_RIGHT_PANEL_DARK: process.env.NEXT_PUBLIC_MAGZINE_RIGHT_DARK || false, // 右侧面板深色模式
+  MAGZINE_RIGHT_PANEL_DARK: process.env.NEXT_PUBLIC_MAGZINE_RIGHT_DARK || true, // 右侧面板深色模式
 
   MAGZINE_POST_LIST_COVER: true, // 文章列表显示图片封面
   MAGZINE_POST_LIST_PREVIEW: true, // 列表显示文章预览
@@ -30,11 +30,11 @@ const CONFIG = {
   MAGZINE_POST_DETAIL_TAG: true, // 文章显示标签
 
   // 文章页面联系卡
-  MAGZINE_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
-  MAGZINE_SOCIAL_CARD_TITLE_1: '交流频道',
-  MAGZINE_SOCIAL_CARD_TITLE_2: '加入社群讨论分享',
-  MAGZINE_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  MAGZINE_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/chat-community',
+  MAGZINE_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  MAGZINE_SOCIAL_CARD_TITLE_1: '设计素材',
+  MAGZINE_SOCIAL_CARD_TITLE_2: '东方素材馆',
+  MAGZINE_SOCIAL_CARD_TITLE_3: '点击直达店铺',
+  MAGZINE_SOCIAL_CARD_URL: 'https://xiaohongshu.com',
 
   // 页脚菜单
   MAGZINE_FOOTER_LINKS: [
