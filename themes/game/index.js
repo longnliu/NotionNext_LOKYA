@@ -90,7 +90,7 @@ const LayoutBase = props => {
       }}>
       <div
         id='theme-game'
-        className={`${siteConfig('FONT_STYLE')} w-1200 h-full min-h-screen justify-center dark:bg-black dark:bg-opacity-50 dark:text-gray-300 scroll-smooth`}>
+        className={`${siteConfig('FONT_STYLE')} w-full h-full min-h-screen justify-center dark:bg-black dark:bg-opacity-50 dark:text-gray-300 scroll-smooth`}>
         <Style />
 
         {/* 左右布局 */}
