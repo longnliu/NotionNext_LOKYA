@@ -2,7 +2,7 @@ const CONFIG = {
   // 首屏信息栏按钮文字
   MAGZINE_HOME_BANNER_ENABLE: true, // 首屏右上角的宣传位
   MAGZINE_HOME_BUTTON: true,
-  MAGZINE_HOME_BUTTON_URL: '/about',
+  MAGZINE_HOME_BUTTON_URL: 'https://www.xiaohongshu.com/user/profile/62349b10000000001000c21e',
   MAGZINE_HOME_BUTTON_TEXT: '了解更多',
 
   MAGZINE_HOME_HIDDEN_CATEGORY: '素材,技术分享', //不希望在首页展示的文章分类，用英文逗号隔开
@@ -30,11 +30,11 @@ const CONFIG = {
   MAGZINE_POST_DETAIL_TAG: true, // 文章显示标签
 
   // 文章页面联系卡
-  MAGZINE_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  MAGZINE_SOCIAL_CARD_TITLE_1: '设计素材',
+  MAGZINE_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
+  MAGZINE_SOCIAL_CARD_TITLE_1: '小红书店铺',
   MAGZINE_SOCIAL_CARD_TITLE_2: '东方素材馆',
-  MAGZINE_SOCIAL_CARD_TITLE_3: '点击直达店铺',
-  MAGZINE_SOCIAL_CARD_URL: 'https://xiaohongshu.com',
+  MAGZINE_SOCIAL_CARD_TITLE_3: '设计素材·原创海报模板',
+  MAGZINE_SOCIAL_CARD_URL: 'https://www.xiaohongshu.com/user/profile/62349b10000000001000c21e',
 
   // 页脚菜单
   MAGZINE_FOOTER_LINKS: [
