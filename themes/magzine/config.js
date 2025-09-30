@@ -30,7 +30,7 @@ const CONFIG = {
   MAGZINE_POST_DETAIL_TAG: true, // 文章显示标签
 
   // 文章页面联系卡
-  MAGZINE_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  MAGZINE_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   MAGZINE_SOCIAL_CARD_TITLE_1: '小红书店铺',
   MAGZINE_SOCIAL_CARD_TITLE_2: '东方素材馆',
   MAGZINE_SOCIAL_CARD_TITLE_3: '设计素材·原创海报模板',
