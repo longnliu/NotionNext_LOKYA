@@ -52,10 +52,10 @@ const MenuGroupCard = props => {
               href={link.href}
               target={link?.target}
               className={
-                'py-1.5 my-1 px-2 duration-300 text-base justify-center items-center cursor-pointer'
+                'py-1.5 my-1 px-2 duration-300 text-[14px] justify-center items-center cursor-pointer'
               }>
               <div className='w-full items-center justify-center hover:scale-105 duration-200 transform dark:hover:text-indigo-400 hover:text-indigo-600'>
-                <div className='text-center font-bold tracking-normal'>{link.name}</div>
+                <div className='text-center font-bold tracking-tight'>{link.name}</div>
                 <div className='text-center font-semibold'>{link.slot}</div>
               </div>
             </SmartLink>
