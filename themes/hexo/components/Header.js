@@ -101,7 +101,7 @@ const Header = props => {
     <>
       {categories && (
         <section className='mt-8'>
-          <div className='text-sm flex flex-nowrap justify-between font-light px-2'>
+          <div className='text-sm flex flex-nowrap justify-between font-light px-2 tracking-tight font-bold'>
             <div className='text-gray-600 dark:text-gray-200'>
               <i className='mr-2 fas fa-th-list' />
               {locale.COMMON.CATEGORY}
