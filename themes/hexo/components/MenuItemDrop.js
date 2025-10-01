@@ -50,7 +50,7 @@ export const MenuItemDrop = ({ link }) => {
             return (
               <li
                 key={index}
-                className='cursor-pointer hover:bg-indigo-500 hover:text-white tracking-widest transition-all duration-200 dark:border-gray-800  py-1 pr-6 pl-3 tracking-normal'>
+                className='cursor-pointer hover:bg-indigo-500 hover:text-white transition-all duration-200 dark:border-gray-800  py-1 pr-6 pl-3 tracking-normal'>
                 <SmartLink href={sLink.href} target={link?.target}>
                   <span className='text-sm text-nowrap font-extralight'>
                     {link?.icon && <i className={sLink?.icon}> &nbsp; </i>}
