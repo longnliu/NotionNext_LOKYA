@@ -60,7 +60,7 @@ const Header = props => {
       const header = document.querySelector('#header')
       // 导航栏和头图是否重叠
       const scrollInHeader =
-        header && (scrollS < 10 || scrollS < header?.clientHeight - 50) // 透明导航条的条件
+        header && false // 透明导航条的条件
 
       // const textWhite = header && scrollInHeader
 
