@@ -54,7 +54,7 @@ const Header = props => {
 
   const topNavStyleHandler = useCallback(
     throttle(() => {
-      {/* const scrollS = window.scrollY 为了永久显示导航栏所以注销掉 */}
+      const scrollS = window.scrollY
       const nav = document.querySelector('#sticky-nav')
       // 首页和文章页会有头图
       const header = document.querySelector('#header')
