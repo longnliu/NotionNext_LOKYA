@@ -29,7 +29,7 @@ export default function ArticleRecommend({ recommendPosts, siteInfo }) {
         </div>
       </div>
       <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
-        {recommendPosts.map(post => {
+        {recommendPosts.slice(0, 3).map(post => {
           const headerImage = post?.pageCoverThumbnail
             ? post.pageCoverThumbnail
             : siteInfo?.pageCover
