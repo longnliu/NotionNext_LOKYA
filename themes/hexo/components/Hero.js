@@ -66,7 +66,7 @@ const Hero = props => {
           {siteInfo?.title || siteConfig('TITLE')}
         </div> 
         {/* 站点欢迎语 */}
-        <div className='mt-4 h-12 items-center text-center font-light text-[14px]'>
+        <div className='mt-6 h-12 items-center text-center font-light text-[14px]'>
           <span id='typed' />
         </div>
 
